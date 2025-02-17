@@ -152,7 +152,7 @@ public interface ComplaintService {
   /**
    * <pre>
    * 商户上传反馈图片API
-   * 文档详见: <a href="https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter10_2_10.shtml">...</a>
+   * 文档详见: <a href="https://pay.weixin.qq.com/docs/merchant/apis/consumer-complaint/images/create-images.html">...</a>
    * 接口链接：https://api.mch.weixin.qq.com/v3/merchant-service/images/upload
    * </pre>
    *
@@ -165,7 +165,7 @@ public interface ComplaintService {
   /**
    * <pre>
    * 商户上传反馈图片API
-   * 文档详见: <a href="https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter10_2_10.shtml">...</a>
+   * 文档详见: <a href="https://pay.weixin.qq.com/docs/merchant/apis/consumer-complaint/images/create-images.html">...</a>
    * 接口链接：https://api.mch.weixin.qq.com/v3/merchant-service/images/upload
    * </pre>
    *

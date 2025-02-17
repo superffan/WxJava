@@ -61,7 +61,7 @@ public class UpdateRefundProgressRequest implements Serializable {
   /**
    * <pre>
    * 字段名：拒绝退款原因
-   * 是否必填：否
+   * 是否必填：否 string(200)
    * 描述：在拒绝退款时返回拒绝退款的原因
    * </pre>
    */
@@ -72,7 +72,9 @@ public class UpdateRefundProgressRequest implements Serializable {
    * <pre>
    * 字段名：拒绝退款的举证图片列表
    * 是否必填：否
-   * 描述：在拒绝退款时，如果有拒绝的图片举证，可以提供 最多上传4张图片, 传入调用“商户上传反馈图片”接口返回的media_id，最多上传4张图片凭证
+   * 描述：在拒绝退款时，如果有拒绝的图片举证，可以提供 最多上传4张图片,
+   *      传入调用“商户上传反馈图片”接口返回的media_id，最多上传4张图片凭证
+   *
    * </pre>
    */
   @SerializedName("reject_media_list")
@@ -81,7 +83,7 @@ public class UpdateRefundProgressRequest implements Serializable {
   /**
    * <pre>
    * 字段名：备注
-   * 是否必填：否
+   * 是否必填：否 string(200)
    * 描述：任何需要向微信支付客服反馈的信息
    * </pre>
    */
